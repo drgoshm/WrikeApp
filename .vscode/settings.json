@@ -1,0 +1,17 @@
+{
+    "editor.tabSize": 2,
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true,
+        "**/dist/**": true,
+        "**/static/**": true,
+        "**/src/index.ejs": true
+    },
+    "eslint.enable": true,
+    "eslint.options": {
+        
+    },
+    "eslint.trace.server": "messages",
+    "eslint.validate": ["javascript","javascriptreact","vue"]
+}

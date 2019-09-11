@@ -1,0 +1,90 @@
+*::-webkit-scrollbar {
+  width: 10px;
+}
+ 
+*::-webkit-scrollbar-thumb {
+  background: #4f647b;
+  border-radius: 20px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #3b4652;
+  border-radius: 20px;
+}
+
+body {
+  background:
+  radial-gradient(
+    ellipse at top left,
+    #464f58 40%,
+    #000000e6 100%
+  );
+}
+
+.color-text {
+  color: #DDD;
+}
+
+.color-statusbar {
+  background-color: #778899;
+  color: #062849;
+}
+
+.color-statusbar * {
+  color: inherit;
+}
+
+.color-statusbar button:hover, .color-statusbar-hover:hover {
+  background-color: #98a7b6 !important;
+}
+
+.color-box-header {
+  background-color: #778899;
+  color: #062849;
+}
+
+.color-box-header-texthover:hover, .color-box-header-texthover:hover:before {
+  color: #0e5dac;
+}
+
+.color-box-body {
+  background-color: #555c63;
+  color: #AAA;
+}
+
+.color-actions-panel, .color-actions-panel * {
+  background-color: #464f58;
+  color: #AAA;
+}
+.color-actions-panel-hover:hover {
+  color: #d3d3d3;
+}
+
+.color-actions-panel .active {
+  color: #FFF;
+}
+
+.color-browser-panel {
+  background-color: #3b4652;
+  color: #c2c0c0;
+}
+
+.color-browser-panel caption{
+  background-color: #464f58;
+  color: #c9c6c6;
+}
+
+.color-browser-panel caption.active{
+  background-color: #344252;
+  color: #e0e0e0;
+}
+
+.color-browser-panel .browser-item-title:hover{
+  background-color: #495766;
+  color: #e0e0e0;
+}
+
+.color-browser-panel .browser-item-title.active{
+  background-color: #3f4c6b;
+  color: #f3f3f3;
+}
